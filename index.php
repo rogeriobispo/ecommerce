@@ -1,14 +1,14 @@
 <?php
 require_once("vendor/autoload.php");
-
-$app = new \Slim\Slim();
+use \Slim\Slim;
+use \roger\DB\Sql;
+use \roger\TPL\Page;
+$app = new Slim();
 $app->config('debug', true);
 
 $app->get('/', function (){
-    echo "ok";
-    $sql = new roger\DB\Sql();
-    $result = $sql->select("select * from tb_users");
-    echo json_encode($result);
+    $page = new Page();
+    $page->setTpl("index");
 });
 
 $app->run();
