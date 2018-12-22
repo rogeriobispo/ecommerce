@@ -99,5 +99,58 @@ $app->post("/admin/users/:iduser", function ($iduser){
 
 });
 
+$app->get("/admin/forgot", function() {
+    $page = new PageAdmin([
+        "header"=>false,
+        "footer"=>false
+    ]);
+    $page->setTpl("/admin/forgot");
+});
+
+$app->post("/admin/forgot", function(){
+    $email = $_POST['email'];
+    User::getForgot($email);
+    header("Location: /admin/forgot/sent");
+    exit;
+});
+
+$app->get("/admin/forgot/sent", function (){
+    $page = new PageAdmin([
+        "header"=>false,
+        "footer"=>false
+    ]);
+    $page->setTpl("/admin/forgot-sent");
+});
+
+$app->get("/admin/forgot/reset", function (){
+
+    $user = User::validForgotDecript($_GET["code"]);
+Error Processing Request
+    $page = new PageAdmin([
+        "header"=>false,
+        "footer"=>false
+    ]);
+    $page->setTpl("/admin/forgot-reset", array(
+        "name"=>$user["desperson"],
+        "code"=>$_GET["code"]
+    ));
+});
+
+$app->post("/admin/forgot/reset", function(){
+    $forgot = User::validForgotDecript($_POST["code"]);
+    User::setForgotUsed($user["idrecovery"]);
+    $user = new User();
+    $password = password_hash($_POST["password"], PASSWORD_DEFAULT, [
+       "cost"=>12
+    ]);
+    $user->get($forgot["iduser"]);
+    $user->setPassword($password);
+    $page = new PageAdmin([
+        "header"=>false,
+        "footer"=>false
+    ]);
+    $page->setTpl("/admin/forgot-reset-success");
+
+});
 $app->run();
 ?>
