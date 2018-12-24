@@ -13,20 +13,20 @@ class User extends Model{
         $sql = new Sql();
         $sql->query("UPDATE tb_users SET despassword = :password WHERE  iduser = :iduser", array(
             ":password"=>$password,
-            ":iduser"=>$this->getiduser();
+            ":iduser"=>$this->getiduser()
         ));
     }
 
-    public static fucntion setForgotused($idrecovery){
+    public static function setForgotused($idrecovery){
         $sql = new Sql();
-        query = "UPDATE tb_userspasswordsrecoveries SET dtrecovery = NOW() WHERE idrecovery = :idrecovery";
+        $query = "UPDATE tb_userspasswordsrecoveries SET dtrecovery = NOW() WHERE idrecovery = :idrecovery";
         $sql->select($query, array(
            ":idrecovery"=>$idrecovery
         ));
     }
     public static function validForgotDecrypt($code){
 
-        $idrecovery = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, User::SECRET, base64_decode($code); , MCRYPT_MODE_ECB);
+        $idrecovery = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, User::SECRET, base64_decode($code) , MCRYPT_MODE_ECB);
         $query = "SELECT * FROM tb_userspasswordrecoveries 
                 INNER  JOIN tb_users b USING(iduser) 
                 INNER JOIN tb_persons c USING(idperson) 
@@ -37,7 +37,7 @@ class User extends Model{
             ":idrecovery"=>$idrecovery
         ));
         if (count($results) === 0){
-            trhow new \Exception("Não foi possivel recuperar a senha", 1);
+            throw new \Exception("Não foi possivel recuperar a senha", 1);
         }else{
             return $results[0];
         }
@@ -54,9 +54,10 @@ class User extends Model{
         if(count($result) === 0){
             throw new \Execution("Não foi possivel recuperar a senha.", 1);
         }else{
-            $data = result[0];
-               ":iduser"=>$data["iduser"],
-               ":desip"=>$_server["REMOTE_ADDR"]
+            $data = $result[0];
+            $result2 = $sql->select("CALL sp_userspasswordsrecoveries_create(:iduser, :desip)", array(
+                ":iduser"=>$data["iduser"],
+                ":desip"=>$_SERVER["REMOTE_ADDR"]
             ));
 
             if(count($result2) === 0 ){
@@ -65,9 +66,9 @@ class User extends Model{
                 $dataRecovery = $result2[0];
                 $code = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_128, User::SECRET, $dataRecovery["idrecovery"], MCRYPT_MODE_ECB));
                 $link = "http://www.ecommerce.com.br/admin/forgot/reset?code=$code";
-                $mailer =  new Mailer($data["desemail"], $data["desperson"], "Redefinir senha RogerCommerce", "forgot", array(
+                $mailer =  new Mailer($data["desemail"], $data["desperson"], "Redefinir senha RogerCommerce", "/email/forgot", array(
                    ":name"=>$data["desperson"],
-                    ":link"=>$link
+                   ":link"=>$link
                 ));
                 $mailer->send();
                 return $data;

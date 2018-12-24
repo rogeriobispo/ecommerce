@@ -125,7 +125,6 @@ $app->get("/admin/forgot/sent", function (){
 $app->get("/admin/forgot/reset", function (){
 
     $user = User::validForgotDecript($_GET["code"]);
-Error Processing Request
     $page = new PageAdmin([
         "header"=>false,
         "footer"=>false

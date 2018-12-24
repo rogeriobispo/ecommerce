@@ -5,7 +5,7 @@ use Rain\Tpl;
 class Mailer{
     const USERNAME = "TESTE@TESTE.COM.BR";
     const PASSWORD = "PWD";
-    const NAME_FROM = "Roger&Commerce"
+    const NAME_FROM = "Roger&Commerce";
     private $mail;
     public function __construct($toAddress, $toName, $subject, $tplName, $data = array())
     {
@@ -23,7 +23,7 @@ class Mailer{
         foreach ($data as $key => $value){
             $tpl->assign($key, $value);
         }
-        $html = $tlp->draw($tplName, true);
+        $html = $tpl->draw($tplName, true);
 
         $this->mail = new \PHPMailer;
         $this->mail->isSMTP();
