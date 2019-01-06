@@ -67,8 +67,8 @@ class User extends Model{
                 $code = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_128, User::SECRET, $dataRecovery["idrecovery"], MCRYPT_MODE_ECB));
                 $link = "http://www.ecommerce.com.br/admin/forgot/reset?code=$code";
                 $mailer =  new Mailer($data["desemail"], $data["desperson"], "Redefinir senha RogerCommerce", "/email/forgot", array(
-                   ":name"=>$data["desperson"],
-                   ":link"=>$link
+                   "name"=>$data["desperson"],
+                   "link"=>$link
                 ));
                 $mailer->send();
                 return $data;

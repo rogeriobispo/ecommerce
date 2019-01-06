@@ -124,7 +124,7 @@ $app->get("/admin/forgot/sent", function (){
 
 $app->get("/admin/forgot/reset", function (){
 
-    $user = User::validForgotDecript($_GET["code"]);
+    $user = User::validForgotDecrypt($_GET["code"]);
     $page = new PageAdmin([
         "header"=>false,
         "footer"=>false

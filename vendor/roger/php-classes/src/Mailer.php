@@ -3,8 +3,8 @@ namespace roger;
 use Rain\Tpl;
 
 class Mailer{
-    const USERNAME = "TESTE@TESTE.COM.BR";
-    const PASSWORD = "PWD";
+    const USERNAME = "teste@teste.com.br";
+    const PASSWORD = "pwd";
     const NAME_FROM = "Roger&Commerce";
     private $mail;
     public function __construct($toAddress, $toName, $subject, $tplName, $data = array())
@@ -34,7 +34,7 @@ class Mailer{
         $this->mail->SMTPAuth = true;
         $this->mail->Username = Mailer::USERNAME;
         $this->mail->Password = Mailer::PASSWORD;
-        $mail->setFrom(Mailer::USERNAME, Mailer::NAME_FROM);
+        $this->mail->setFrom(Mailer::USERNAME, Mailer::NAME_FROM);
         $this->mail->addReplyTo('replyto@example.com', 'First Last');
         $this->mail->addAddress($toAddress, $toName);
         $this->mail->Subject = $subject;

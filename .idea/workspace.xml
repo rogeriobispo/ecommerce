@@ -7,8 +7,23 @@
     <list default="true" id="79f3ef1b-1169-4376-908c-c11a975731e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/roger/php-classes/src/mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/footer.2f8e128c15e5550c7d28823f86eef6db.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/footer.dd72dfacaef72fac9040cda1230ca902.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/footer.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/forgot.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/header.2f8e128c15e5550c7d28823f86eef6db.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/header.dd72dfacaef72fac9040cda1230ca902.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/header.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/index.2f8e128c15e5550c7d28823f86eef6db.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/index.dd72dfacaef72fac9040cda1230ca902.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/index.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/login.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/users-create.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/users-update.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/users.eb90e25a71ca1727bd2037a178508ea7.rtpl.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,18 +95,19 @@
     <session id="1363377526">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -102,20 +118,20 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="40" />
+          <entry key="html" value="42" />
           <entry key="jpg" value="10" />
           <entry key="js" value="2" />
-          <entry key="php" value="63" />
+          <entry key="php" value="69" />
           <entry key="png" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="42" />
           <entry key="Image" value="26" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="63" />
+          <entry key="PHP" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -124,14 +140,14 @@
           <entry key="dummy" value="3" />
           <entry key="html" value="380" />
           <entry key="json" value="7" />
-          <entry key="php" value="8491" />
+          <entry key="php" value="8584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="380" />
           <entry key="JSON" value="7" />
-          <entry key="PHP" value="9003" />
+          <entry key="PHP" value="9096" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="34" />
         </counts>
@@ -143,17 +159,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+            <state relative-caret-position="2684">
+              <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/email/forgot.html">
+        <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="411" column="58" selection-start-line="411" selection-start-column="58" selection-end-line="411" selection-end-column="58" />
+            <state relative-caret-position="27258">
+              <caret line="1269" selection-start-line="1269" selection-end-line="1269" />
             </state>
           </provider>
         </entry>
@@ -161,8 +177,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/forgot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="770">
               <caret line="35" column="30" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/email/forgot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="464" column="10" selection-start-line="464" selection-start-column="10" selection-end-line="464" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -170,8 +195,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="68" column="112" selection-start-line="68" selection-start-column="112" selection-end-line="68" selection-end-column="112" />
+            <state relative-caret-position="1474">
+              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding>
                 <element signature="e#29#84#0#PHP" expanded="true" />
               </folding>
@@ -179,20 +204,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="411" column="86" selection-start-line="411" selection-start-column="81" selection-end-line="411" selection-end-column="86" />
+            <state relative-caret-position="44">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -200,7 +216,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/rain/raintpl/library/Rain/Tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="1782">
               <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="26" />
             </state>
           </provider>
@@ -227,7 +243,6 @@
       <find>href</find>
       <find>src</find>
       <find>site</find>
-      <find>login</find>
       <find>emal</find>
       <find>sign out</find>
       <find>link</find>
@@ -237,7 +252,10 @@
       <find>forg</find>
       <find>REMOTE_ADDR</find>
       <find>$tplName</find>
+      <find>Para redefinir a sua senha acesse o link \&lt;a href\=\&quot;\{\$link\}\&quot;\&gt;\{\$link\}\&lt;\/a\&gt;\.\n</find>
       <find>name</find>
+      <find>Para redefinir a sua senha acesse o link &lt;a href=&quot;{$link}&quot;&gt;{$link}&lt;/a&gt;.</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -266,11 +284,11 @@
         <option value="$PROJECT_DIR$/views/admin/login.html" />
         <option value="$PROJECT_DIR$/views/admin/forgot.html" />
         <option value="$PROJECT_DIR$/vendor/roger/php-classes/src/mailer.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php" />
-        <option value="$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php" />
         <option value="$PROJECT_DIR$/views/email/forgot.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php" />
         <option value="$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php" />
+        <option value="$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php" />
       </list>
     </option>
   </component>
@@ -302,17 +320,14 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2267" />
-    <option name="y" value="69" />
-    <option name="width" value="949" />
-    <option name="height" value="1050" />
+    <option name="width" value="959" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,12 +344,6 @@
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="rain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="roger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,6 +352,14 @@
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="roger" type="462c0819:PsiDirectoryNode" />
               <item name="php-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="roger" type="462c0819:PsiDirectoryNode" />
+              <item name="php-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +381,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,32 +451,34 @@
       <workItem from="1544950348968" duration="1620000" />
       <workItem from="1545086427792" duration="9108000" />
       <workItem from="1545468215931" duration="6856000" />
-      <workItem from="1545667819630" duration="3819000" />
+      <workItem from="1545667819630" duration="6421000" />
+      <workItem from="1546720071450" duration="1584000" />
+      <workItem from="1546768731232" duration="832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65749000" />
+    <option name="totallyTimeSpent" value="70767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1398079" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21344717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9082177" weight="0.22303665" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49733192" visible="true" weight="0.51204187" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.90448236" visible="true" weight="0.17349137" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49519745" weight="0.51185346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026681" side_tool="true" visible="true" weight="0.51204187" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33943966" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09551761" side_tool="true" visible="true" weight="0.17349137" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" weight="0.34913793" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,37 +512,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php</url>
-          <line>411</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/site/img/brand6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/site/img/crossword.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/site/img/h4-slide.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/site/img/h4-slide2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -671,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4114">
@@ -713,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/forgot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -727,58 +703,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1238" selection-start-line="1238" selection-end-line="1238" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/admin/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/email/forgot.html">
+    <entry file="file://$PROJECT_DIR$/views/admin/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="411" column="58" selection-start-line="411" selection-start-column="58" selection-end-line="411" selection-end-column="58" />
+        <state relative-caret-position="363">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views-cache/forgot.eb90e25a71ca1727bd2037a178508ea7.rtpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views-cache/footer.2f8e128c15e5550c7d28823f86eef6db.rtpl.php" />
+    <entry file="file://$PROJECT_DIR$/views-cache/footer.dd72dfacaef72fac9040cda1230ca902.rtpl.php" />
+    <entry file="file://$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+        <state relative-caret-position="2684">
+          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/rain/raintpl/library/Rain/Tpl.php">
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="26" />
+        <state relative-caret-position="27258">
+          <caret line="1269" selection-start-line="1269" selection-end-line="1269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/forgot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/roger/php-classes/src/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="68" column="112" selection-start-line="68" selection-start-column="112" selection-end-line="68" selection-end-column="112" />
+        <state relative-caret-position="1474">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding>
             <element signature="e#29#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php">
+    <entry file="file://$PROJECT_DIR$/vendor/rain/raintpl/library/Rain/Tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="1782">
+          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views-cache/forgot.83894f21256b55da8c4ae36bb3636155.rtpl.php">
+    <entry file="file://$PROJECT_DIR$/views/email/forgot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="411" column="86" selection-start-line="411" selection-start-column="81" selection-end-line="411" selection-end-column="86" />
+        <state relative-caret-position="359">
+          <caret line="464" column="10" selection-start-line="464" selection-start-column="10" selection-end-line="464" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/roger/php-classes/src/Mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
